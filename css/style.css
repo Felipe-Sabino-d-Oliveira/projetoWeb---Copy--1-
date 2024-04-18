@@ -11,7 +11,7 @@ body {
 }
 
 header {
-	background: #FFFF99;
+	background: #FF7F50;
 	padding: 10px 0;
 	font-size: 1.8em;
 }
@@ -58,7 +58,7 @@ li.emLinha a {
 }
 
 li.emLinha a:hover {
-	color: red;
+	color: #FFFF99;
 	transition: color 0.3s;
 }
 
@@ -76,7 +76,7 @@ li.emLinha:hover a span {
 
 ul.oculto {
 	visibility: hidden;
-	background: #fff;
+	background: #FF7F50;
 	border: solid 1px #000;
 	border-radius: 5px;
 	list-style: none;
@@ -100,7 +100,7 @@ ul.oculto li {
 }
 
 ul.oculto li a {
-	color: #000;
+	color: blue;
 }
 
 /* ======= SEÇÃO 1 ======= */
@@ -131,7 +131,7 @@ ul.oculto li a {
 
 .blocoFigura a{
 	text-decoration: none;
-	color: #2593D1;
+	color: blue;
 	opacity: 1;
 	transition: opacity 0.2s;
 }
@@ -140,6 +140,10 @@ ul.oculto li a {
 	opacity: 0.7;
 	transition: opacity 0.2s;
 }
+
+/* section div h2{
+	te
+} */
 
 /* ======= SEÇÃO 2 ======== */
 
@@ -151,6 +155,7 @@ ul.oculto li a {
 .secao2h3{
 	margin: 0 auto;
 	font-size: 3.6em;
+	color: blue;
 }
 
 /* ======= SEÇÃO 3 ======== */
@@ -158,6 +163,8 @@ ul.oculto li a {
 article{
 	width: 49%;
 	margin-right: 2%;
+	background: #FF7F50;
+	border-radius: 10px;
 }
 
 article:last-child{
@@ -172,7 +179,7 @@ article p{
 /* ======= RODAPÉ ======== */
 
 footer{
-	background:#FFFF99;
+	background:#FF7F50;
 	padding: 30px 0;
 	margin-top: 20px;
 }
@@ -201,7 +208,7 @@ footer{
 	margin-bottom: 36px;
 }
 .divRodape p{
-	color: #BDC3DC;
+	color: blue;
 	margin: 0 0 30px 0;
 	font-size: 1.6em;
 }
@@ -212,7 +219,7 @@ footer{
 
 .divRodape p.pLink{
 	font-weight: bold;
-	color: #fff;
+	color: blue;
 }
 
 .divRodape p.pMargem{
