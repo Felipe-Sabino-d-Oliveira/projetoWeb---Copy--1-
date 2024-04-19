@@ -30,8 +30,13 @@ main{
 
 /* ===== CABEÇALHO ===== */
 
-.logo-site{
+.logoSite{
 	width: 50px;
+}
+
+.logoSite:hover{
+	transform: rotate(360deg);
+	transition: transform 1.5s;
 }
 
 h1 {
@@ -67,7 +72,7 @@ li.emLinha a:hover {
 }
 
 li.emLinha a span {
-	color: red;
+	color: white;
 	font-size: 14px;
 	display: inline-block;
 	transform: rotate(0deg);
@@ -80,7 +85,7 @@ li.emLinha:hover a span {
 
 ul.oculto {
 	visibility: hidden;
-	background: brown;
+	background: #a3000b;
 	border: solid 1px #000;
 	border-radius: 5px;
 	list-style: none;
@@ -104,7 +109,7 @@ ul.oculto li {
 }
 
 ul.oculto li a {
-	color: blue;
+	color: white;
 }
 
 /* ======= SEÇÃO 1 ======= */
@@ -181,7 +186,7 @@ article p{
 /* ======= RODAPÉ ======== */
 
 footer{
-	background:brown;
+	background:#a3000b;
 	padding: 30px 0;
 }
 
@@ -209,7 +214,7 @@ footer{
 	margin-bottom: 36px;
 }
 .divRodape p{
-	color: blue;
+	color: white;
 	margin: 0 0 30px 0;
 	font-size: 1.6em;
 }
@@ -220,7 +225,7 @@ footer{
 
 .divRodape p.pLink{
 	font-weight: bold;
-	color: blue;
+	color: white;
 }
 
 .divRodape p.pMargem{
