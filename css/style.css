@@ -5,13 +5,13 @@ body {
 	padding: 0;
 	font-family: 'arial';
 	font-size: 62.5%;
-	background-image:url(https://wallpaperaccess.com/full/17350.jpg);
 	background-repeat: no-repeat;
 	background-size: cover;
+	
 }
 
 header {
-	background: #FF7F50;
+	background: #a3000b;
 	padding: 10px 0;
 	font-size: 1.8em;
 }
@@ -21,7 +21,11 @@ header {
 	margin: 0 auto;
 	display: flex;
 	justify-content: space-between;
-	/* background: green; */
+}
+
+main{
+	background-image:url(../img/bg.png);
+	padding-bottom: 30px;
 }
 
 /* ===== CABEÇALHO ===== */
@@ -52,13 +56,13 @@ li.emLinha:last-child {
 }
 
 li.emLinha a {
-	color: blue;
+	color: white;
 	text-decoration: none;
 	transition: color 0.3s;
 }
 
 li.emLinha a:hover {
-	color: #FFFF99;
+	background-color: #772020;
 	transition: color 0.3s;
 }
 
@@ -76,7 +80,7 @@ li.emLinha:hover a span {
 
 ul.oculto {
 	visibility: hidden;
-	background: #FF7F50;
+	background: brown;
 	border: solid 1px #000;
 	border-radius: 5px;
 	list-style: none;
@@ -131,19 +135,16 @@ ul.oculto li a {
 
 .blocoFigura a{
 	text-decoration: none;
-	color: blue;
 	opacity: 1;
 	transition: opacity 0.2s;
+	color: #772020;
+	background-color:  #772020;
 }
 
 .blocoFigura a:hover{
 	opacity: 0.7;
 	transition: opacity 0.2s;
 }
-
-/* section div h2{
-	te
-} */
 
 /* ======= SEÇÃO 2 ======== */
 
@@ -153,9 +154,9 @@ ul.oculto li a {
 }
 
 .secao2h3{
+	color: #fafafa;
 	margin: 0 auto;
 	font-size: 3.6em;
-	color: blue;
 }
 
 /* ======= SEÇÃO 3 ======== */
@@ -163,8 +164,8 @@ ul.oculto li a {
 article{
 	width: 49%;
 	margin-right: 2%;
-	background: #FF7F50;
 	border-radius: 10px;
+	padding: 0 20px;
 }
 
 article:last-child{
@@ -172,6 +173,7 @@ article:last-child{
 }
 
 article p{
+	color: #fafafa;
 	text-align: justify;
 	font-size: 1.6em;
 }
@@ -179,9 +181,8 @@ article p{
 /* ======= RODAPÉ ======== */
 
 footer{
-	background:#FF7F50;
+	background:brown;
 	padding: 30px 0;
-	margin-top: 20px;
 }
 
 .divRodape{
@@ -239,9 +240,110 @@ footer{
 	margin-right: 0;
 }
 
+/* ========= INTERNA ========== */
+
+.interna{
+	margin-top: 50px;
+	margin-bottom: 50px;
+}
+
+.interna:first-child{
+	margin-top: 0;
+	padding: 50px 0 0 0;
+}
+
+.legenda{
+	width: 50%;
+	text-align: justify;
+	font-size: 2.0em;
+	margin: 0;
+}
+
+.figuraLegenda{
+	width: 48%;
+	margin: 0;
+}
+
+.figuraLegenda img{
+	max-width: 100%;
+}
+
+
+/*========== CONTATO ==========*/
+
+.mapa{
+	width: 100%;
+	height: 450px;
+	border: none;
+	margin: 0 0 50px 0;
+}
+
+form{
+	width: 100%;
+	font-size: 1.6em;
+	color: white;
+}
+
+.blocoFormPrincipal{
+	display: block;
+	width: 100%;
+	background: blue;
+}
+
+.divFormInline{
+	display: inline-block;
+	width: 49.5%;
+	margin: 5px 0;
+
+}
+
+.divFormInline input[type = "text"], .divFormInline input[type = "number"], .divFormInline input[type = "email"], .divFormInline input[type = "password"]{
+	background: #73e1fa;
+	padding: 5px;
+	font-size: 1.6em;
+	border: none;
+	width: 98%;
+	box-shadow: 2px 2px 2px #8E8E8E;
+}
+
+.divFormTextArea{
+	display: inline-block;
+	width: 99%;
+	margin: 10px 0;
+}
+
+.divFormTextArea textarea{
+	background:  #73e1fa;
+	padding: 5px;
+	font-size: 1.6em;
+	border: none;
+	width: 99.4%;
+	height: 200px;
+	font-family: 'arial';
+	box-shadow: 2px 2px 2px #8E8E8E;
+}
+
+.divFormInline input[type="submit"]{
+	cursor: pointer;
+	background: #103440;
+	color: #fff;
+	padding: 5px;
+	font-size: 16px;
+	border: none;
+	border-radius: 5px;
+	box-shadow: 2px 2px 2px #8E8E8E;
+	margin: 0 0 10px 0;
+	transition: background 0.3s;
+}
+
+.divFormInline input[type="submit"]:hover{
+	transition: background 0.3s;
+	background: #e69383;
+}
+
 /*======= MEDIA QUERIES =======*/
 
-@media screen and (max-width: 960px){
+/* @media screen and (max-width: 960px){
 	.container{
 		background: red;
 	} 
@@ -253,4 +355,4 @@ footer{
 
 @media screen and (max-width: 540px){
 
-}
+} */

@@ -4,21 +4,22 @@
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<title>FICR - Contato</title>
+	<link rel="stylesheet" href="css/style.css">
 </head>
 <body>
 	<header>
-		<div>
+		<div class="container">
 			<h1>
 				<a href="index.html">
-					<img src="img/logo.svg" alt="Faculdade Imaculada Conceição do Recife - FICR">
+					<img class="logo-site" src="./img/Chapéu-de-palha.png" alt="Faculdade Imaculada Conceição do Recife - FICR">
 				</a>
 			</h1>
 			<nav>
-				<ul>
-					<li><a href="index.html">Home</a></li>
-					<li>
-						<a href="#">Cursos ▼</a>
-						<ul>
+				<ul class="principal">
+					<li class="emLinha"><a href="index.html">O Anime</a></li>
+					<li class="emLinha">
+						<a href="#">Arcos <span>▼</span></a>
+						<ul class="oculto">
 							<li><a href="ads.html">Análise e Desenvolvimento de Sistemas</a></li>
 							<li><a href="si.html">Sistemas para Internet</a></li>
 							<li><a href="direito.html">Direito</a></li>
@@ -26,42 +27,106 @@
 							<li><a href="psicologia.html">Psicologia</a></li>
 						</ul>
 					</li>
-					<li><a href="sobre.html">Sobre nós</a></li>
-					<li><a href="contato.html">Contato</a></li>
+					<li class="emLinha"><a href="sobre.html">Resenhas de Episódios</a></li>
+					<li class="emLinha"><a href="contato.html">Contato</a></li>
 				</ul>
 			</nav>
 		</div>
 	</header>
 	<main>
-		<section>
-			<h2>Contato</h2>
-			<div>
+
+		<section class="container margemSecao2 interna">
+			<h3 class="secao2h3">Contato</h3>
+		</section>
+
+		<section class="container">
+			<iframe class="mapa" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3950.5941873789675!2d-34.94268032411809!3d-8.04070608029907!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x7ab199240000001%3A0xca8aee19ccd4b76f!2sFICR%20-%20Faculdade%20Cat%C3%B3lica%20Imaculada%20Concei%C3%A7%C3%A3o%20do%20Recife!5e0!3m2!1spt-BR!2sbr!4v1713535158655!5m2!1spt-BR!2sbr" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+		</section>
+
+		<section class="container">
 				<form action="contato.html" method="post">
-					<div>
-						<label for="nome">Nome</label><br>
-						<input type="text" name="nome" id="nome" required>
+					
+					<div class="blocoFormPrincipal">
+						<div class="divFormInline">
+							<label for="nome">Nome</label><br>
+							<input type="text" name="nome" id="nome" required>
+						</div>
+						<div class="divFormInline">
+							<label for="fone">Telefone</label><br>
+							<input type="number" name="fone" id="fone" required>
+						</div>
 					</div>
-					<div>
-						<label for="fone">Telefone</label><br>
-						<input type="number" name="fone" id="fone" required>
+
+					<div class="blocoFormPrincipal">
+						<div class="divFormInline">
+							<label for="email">E-mail</label><br>
+							<input type="email" name="email" id="email" required>
+						</div>
+						<div class="divFormInline">
+							<label for="senha">Senha</label><br>
+							<input type="password" name="senha" id="senha" required>
+						</div>
 					</div>
-					<div>
-						<label for="email">E-mail</label><br>
-						<input type="email" name="email" id="email" required>
+					
+					<div class="blocoFormPrincipal">
+						<div class="divFormTextArea">
+							<label for="comentario">Comentário</label><br>
+							<textarea name="comentario" id="comentario" cols="30" rows="10"></textarea>
+						</div>
 					</div>
-					<div>
-						<label for="senha">Senha</label><br>
-						<input type="password" name="senha" id="senha" required>
+
+					<div class="blocoFormPrincipal">
+						<div class="divFormInline">
+							<input type="submit" value="Enviar formulário">
+						</div>
 					</div>
-					<div>
-						<input type="submit" value="Enviar formulário">
-					</div>
+					
 				</form>
-			</div>
 		</section>
 	</main>
 	<footer>
-		<h3>© 2024 David Barreto - Web Designer</h3>
+		<div class="container">
+
+			<div class="divRodape divImagem">
+				<img src="./img/ubec-logo.png">
+				<img src="img/ouvidoria.png">
+				<img src="img/QRcode.png">
+			</div>
+
+			<div class="divRodape">
+			<img class="divRodapeImagem" src="./img/logo.svg" alt="Faculdade Imaculada Católica Conceição do Recife">
+			<p class="pLink">Acesso rápido</p>
+			<p>Graduação</p>
+			<p>Bolsas e Financiamentos</p>
+			<p> CPA - Comissão Própria <br> de avaliação
+			</p>
+			<p class="pLink pMargem">Ajuda</p>
+			<p class="pLink">Trabalhe Conosco</p>
+		</div>
+
+			<div class="divRodape">
+				<p>Pós-Graduação</p>
+				<p>A Instituição</p>
+				<p>Área do Estudante</p>
+				<p>Documentos Institucionais</p>
+				<p class="pLink">Católica de A a Z</p>
+
+			</div>
+             
+			<div class="divRodape">
+				<img class="divSvg" src="img/facebook.svg">
+				<img class="divSvg" src="img/linkedin.svg">
+				<img class="divSvg" src="img/instagram.svg">
+				<img class="divSvg" src="img/youtube.svg">
+
+				<p> (81) 2127-0500 <br> faleconosco@ficr.edu.br
+				</p>
+				<p> FICR - Faculdade Católica <br> Imaculada Conceição <br> do Recife
+				</p>
+				<p> Avenida Caxangá, 3841 <br> Iputinga - Recife / PE <br> CEP: 50670-92
+				</p>
+			</div>
+		</div>
 	</footer>
 </body>
 </html>
