@@ -128,7 +128,6 @@ ul.oculto li a {
 }
 
 .blocoFigura figure img{
-    
 	max-width: 100%;
 }
 
@@ -142,7 +141,7 @@ ul.oculto li a {
 	text-decoration: none;
 	opacity: 1;
 	transition: opacity 0.2s;
-	color: #772020;
+	color: white;
 	background-color:  #772020;
 }
 
@@ -151,6 +150,18 @@ ul.oculto li a {
 	transition: opacity 0.2s;
 }
 
+.aImagens:hover{
+	transform: scale(1.2);
+}
+
+figure:hover{
+	overflow: hidden;
+}
+
+.aTexto{
+	padding: 0 10px;
+	border-radius: 5px;
+}
 /* ======= SEÇÃO 2 ======== */
 
 .margemSecao2{
