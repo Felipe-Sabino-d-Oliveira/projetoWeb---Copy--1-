@@ -1,116 +1,167 @@
 <!DOCTYPE html>
 <html lang="pt-br">
-<head>
-	<meta charset="utf-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<title>Wiki Peace</title>
-	<link rel="stylesheet" type="text/css" href="./css/style.css">
-</head>
-<body>
-	<header>
-		<div class="container">
-			<h1>
-				<a href="index.html">
-					<img class="logoSite" src="./img/Chapéu-de-palha.png" alt="Faculdade Imaculada Conceição do Recife - FICR">
-				</a>
-			</h1>
-			<nav>
-				<ul class="principal">
-					<li class="emLinha"><a href="index.html">O Anime</a></li>
-					<li class="emLinha">
-						<a href="#">Arcos <span>▼</span></a>
-						<ul class="oculto">
-							<li><a href="ads.html">Análise e Desenvolvimento de Sistemas</a></li>
-							<li><a href="si.html">Sistemas para Internet</a></li>
-							<li><a href="direito.html">Direito</a></li>
-							<li><a href="enfermagem.html">Enfermagem</a></li>
-							<li><a href="psicologia.html">Psicologia</a></li>
-						</ul>
-					</li>
-					<li class="emLinha"><a href="sobre.html">Resenhas de Episódios</a></li>
-					<li class="emLinha"><a href="contato.html">Contato</a></li>
-				</ul>
-			</nav>
-		</div>
-	</header>
-	<main>
-		<section class="container">
-			<div class="blocoFigura">
-				<figure>
-					<a href="#"><img class="aImagens" src="https://wallpaper.dog/large/300126.jpg" alt="Personagens" height = "200" width="400"></a>
-				</figure>
-				<h2><a class="aTexto" href="#">Personagens</a></h2>
-			</div>
-			<div class="blocoFigura">
-				<figure>
-					<a href="#"><img class="aImagens" src="https://cdnb.artstation.com/p/assets/images/images/042/273/863/large/hebert-g-1633378471390.jpg?1634054402" alt="Sobre o autor" height = "200" width="400"></a>
-				</figure>
-				<h2><a class="aTexto" href="#">Sobre o autor</a></h2>
-			</div>
-			<div class="blocoFigura">
-				<figure>
-					<a href="#"><img class="aImagens" src="https://wallup.net/wp-content/uploads/2019/09/08/198721-one-piece-anime.jpg" alt="Episodios" height = "200" width="400"></a>
-				</figure>
-				<h2><a class="aTexto" href="#">Episódios</a></h2>
-			</div>
-		</section>
-		<section class="container margemSecao2">
-			<h3 class="secao2h3">Sobre esta grande obra</h3>
-		</section>
-		<section class="container sobreOanime">
-			<article>
-				<p>One Piece narra a épica aventura de Monkey D. Luffy, um jovem sonhador que aspira se tornar o Rei dos Piratas. Inspirado por Gol D. Roger, o lendário pirata que conquistou o título e escondeu um tesouro inigualável chamado One Piece, Luffy zarpa em uma jornada pelos mares turbulentos do Grand Line ao lado de sua tripulação, os Piratas do Chapéu de Palha.</p>
-				<p>Ao longo da história, Luffy e seus nakama (companheiros) enfrentam perigos inimagináveis, batalham contra piratas infames, desvendam mistérios antigos e forjam laços de amizade inquebráveis.</p>
-			</article>
-			<article>
-				<p>Em sua jornada, a tripulação se depara com ilhas exóticas, culturas vibrantes e criaturas fantásticas, cada um com seus próprios segredos e desafios a serem superados. Enfrentando a Marinha, o governo mundial que busca manter a ordem, e outros piratas ambiciosos, Luffy e seus amigos lutam por seus sonhos e pela liberdade.</p>
-				<p>One Piece é mais do que apenas uma história de aventura e batalhas épicas. É uma celebração da amizade, da perseverança e da busca pelos sonhos, mesmo diante das maiores adversidades. Com personagens cativantes, humor contagiante e uma trama envolvente, One Piece conquistou o coração de milhões de fãs ao redor do mundo, se tornando um dos animes mais populares de todos os tempos.</p>
-			</article>
-		</section>
-		
-	</main>
-	<footer>
-		<div class="container">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Wiki Peace</title>
+    <link rel="stylesheet" type="text/css" href="./css/style.css" />
+    <link rel="stylesheet" href="./css/reset.css">
+    <link rel="stylesheet" href="./css/vars.css">
+  </head>
+  <body>
+    <header class="header">
+      <h1 class="header__h1">
+        <a class="header_h1_link" href="index.html">
+          <img
+            class="logoSite"
+            src="./img/Chapéu-de-palha.png"
+            alt="Faculdade Imaculada Conceição do Recife - FICR"
+          />
+        </a>
+      </h1>
+      <nav class="header__nav">
+        <ul class="header_nav_list">
+          <li class="emLinha"><a href="index.html">Início</a></li>
+          <li class="emLinha">
+            <a href="#">Arcos <span>▼</span></a>
+            <ul class="oculto">
+              <li>
+                <a href="ads.html">Análise e Desenvolvimento de Sistemas</a>
+              </li>
+              <li><a href="si.html">Sistemas para Internet</a></li>
+              <li><a href="direito.html">Direito</a></li>
+              <li><a href="enfermagem.html">Enfermagem</a></li>
+              <li><a href="psicologia.html">Psicologia</a></li>
+            </ul>
+          </li>
+          <li class="emLinha">
+            <a href="sobre.html">Resenhas de Episódios</a>
+          </li>
+          <li class="emLinha"><a href="contato.html">Contato</a></li>
+        </ul>
+      </nav>
+    </header>
+    <main>
+      <section class="container">
+        <div class="blocoFigura">
+          <a href="#" class="main__card-link">
+            <figure class="figure__container">
+              <div class="figure__image__container">
+                <img class="figure__image" src="https://c4.wallpaperflare.com/wallpaper/52/42/395/one-piece-straw-hat-straw-hat-pirates-anime-wallpaper-preview.jpg" />
+              </div>
+              <h2 class="figure__container__title">Personagens</h2>
+            </figure>
+          </a>
 
-			<div class="divRodape divImagem">
-				<img src="./img/ubec-logo.png">
-				<img src="img/ouvidoria.png">
-				<img src="img/QRcode.png">
-			</div>
+          <a href="#" class="main__card-link">
+            <figure class="figure__container">
+              <div class="figure__image__container">
+                <img class="figure__image" src="https://www.animeunited.com.br/oomtumtu/2020/07/Eiichiro_oda-01.png" />
+              </div>
+              <h2 class="figure__container__title">O Autor</h2>
+            </figure>
+          </a>
 
-			<div class="divRodape">
-			<img class="divRodapeImagem" src="./img/logo.svg" alt="Faculdade Imaculada Católica Conceição do Recife">
-			<p class="pLink">Acesso rápido</p>
-			<p>Graduação</p>
-			<p>Bolsas e Financiamentos</p>
-			<p> CPA - Comissão Própria <br> de avaliação
-			</p>
-			<p class="pLink pMargem">Ajuda</p>
-			<p class="pLink">Trabalhe Conosco</p>
-		</div>
+          <a href="#" class="main__card-link">
+            <figure class="figure__container">
+              <div class="figure__image__container">
+                <img class="figure__image" src="https://wallpapercave.com/wp/wp12036912.png" />
+              </div>
+              <h2 class="figure__container__title">Episódios</h2>
+            </figure>
+          </a>
+        </div>
+      </section>
 
-			<div class="divRodape">
-				<p>Pós-Graduação</p>
-				<p>A Instituição</p>
-				<p>Área do Estudante</p>
-				<p>Documentos Institucionais</p>
-				<p class="pLink">Católica de A a Z</p>
+      <section class="container margemSecao2">
+        <h3 class="secao2h3">Sobre esta grande obra</h3>
+      </section>
+      <section class="container sobreOanime">
+        <article>
+          <p>
+            One Piece narra a épica aventura de Monkey D. Luffy, um jovem
+            sonhador que aspira se tornar o Rei dos Piratas. Inspirado por Gol
+            D. Roger, o lendário pirata que conquistou o título e escondeu um
+            tesouro inigualável chamado One Piece, Luffy zarpa em uma jornada
+            pelos mares turbulentos do Grand Line ao lado de sua tripulação, os
+            Piratas do Chapéu de Palha.
+          </p>
+          <p>
+            Ao longo da história, Luffy e seus nakama (companheiros) enfrentam
+            perigos inimagináveis, batalham contra piratas infames, desvendam
+            mistérios antigos e forjam laços de amizade inquebráveis.
+          </p>
+        </article>
+        <article>
+          <p>
+            Em sua jornada, a tripulação se depara com ilhas exóticas, culturas
+            vibrantes e criaturas fantásticas, cada um com seus próprios
+            segredos e desafios a serem superados. Enfrentando a Marinha, o
+            governo mundial que busca manter a ordem, e outros piratas
+            ambiciosos, Luffy e seus amigos lutam por seus sonhos e pela
+            liberdade.
+          </p>
+          <p>
+            One Piece é mais do que apenas uma história de aventura e batalhas
+            épicas. É uma celebração da amizade, da perseverança e da busca
+            pelos sonhos, mesmo diante das maiores adversidades. Com personagens
+            cativantes, humor contagiante e uma trama envolvente, One Piece
+            conquistou o coração de milhões de fãs ao redor do mundo, se
+            tornando um dos animes mais populares de todos os tempos.
+          </p>
+        </article>
+      </section>
+    </main>
+    <footer>
+      <div class="container">
+        <div class="divRodape divImagem">
+          <img src="./img/ubec-logo.png" />
+          <img src="img/ouvidoria.png" />
+          <img src="img/QRcode.png" />
+        </div>
 
-			</div>
-             
-			<div class="divRodape">
-				<img class="divSvg" src="img/facebook.svg">
-				<img class="divSvg" src="img/linkedin.svg">
-				<img class="divSvg" src="img/instagram.svg">
-				<img class="divSvg" src="img/youtube.svg">
+        <div class="divRodape">
+          <img
+            class="divRodapeImagem"
+            src="./img/logo.svg"
+            alt="Faculdade Imaculada Católica Conceição do Recife"
+          />
+          <p class="pLink">Acesso rápido</p>
+          <p>Graduação</p>
+          <p>Bolsas e Financiamentos</p>
+          <p>
+            CPA - Comissão Própria <br />
+            de avaliação
+          </p>
+          <p class="pLink pMargem">Ajuda</p>
+          <p class="pLink">Trabalhe Conosco</p>
+        </div>
 
-				<p> (81) 2127-0500 <br> felipe.slima@a.ficr.edu.br
-				</p>
-				</p>
-				<p> Avenida Caxangá, 99 <br> Iputinga - Recife / PE <br> CEP: XXXXX-XX
-				</p>
-			</div>
-		</div>
-	</footer>
-</body>
+        <div class="divRodape">
+          <p>Pós-Graduação</p>
+          <p>A Instituição</p>
+          <p>Área do Estudante</p>
+          <p>Documentos Institucionais</p>
+          <p class="pLink">Católica de A a Z</p>
+        </div>
+
+        <div class="divRodape">
+          <img class="divSvg" src="img/facebook.svg" />
+          <img class="divSvg" src="img/linkedin.svg" />
+          <img class="divSvg" src="img/instagram.svg" />
+          <img class="divSvg" src="img/youtube1.svg" />
+
+          <p>
+            (81) 2127-0500 <br />
+            felipe.slima@a.ficr.edu.br
+          </p>
+          <p>
+            Avenida Caxangá, 99 <br />
+            Iputinga - Recife / PE <br />
+            CEP: XXXXX-XX
+          </p>
+        </div>
+      </div>
+    </footer>
+  </body>
 </html>

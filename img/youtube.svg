@@ -1,1 +1,14 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="54" height="36" viewBox="2 3 11 11" id="youtube"><g fill-rule="evenodd" clip-rule="evenodd"><path fill="#2593d1" d="M15.32 4.06c-.434-.772-.905-.914-1.864-.968C12.498 3.027 10.089 3 8.002 3c-2.091 0-4.501.027-5.458.091-.957.055-1.429.196-1.867.969C.23 4.831 0 6.159 0 8.497v.008c0 2.328.23 3.666.677 4.429.438.772.909.912 1.866.977.958.056 3.368.089 5.459.089 2.087 0 4.496-.033 5.455-.088.959-.065 1.43-.205 1.864-.977.451-.763.679-2.101.679-4.429v-.008c0-2.339-.228-3.667-.68-4.438z"></path><path fill="#24388b" d="M6 11.5v-6l5 3z"></path></g></svg>
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<!-- Creator: CorelDRAW -->
+<?xml-stylesheet href="youtube.css" type="text/css"?>
+<svg xmlns="http://www.w3.org/2000/svg" xml:space="preserve" width="210mm" height="297mm" version="1.1" style="shape-rendering:geometricPrecision; text-rendering:geometricPrecision; image-rendering:optimizeQuality; fill-rule:evenodd; clip-rule:evenodd"
+viewBox="0 0 21000 29700"
+ xmlns:xlink="http://www.w3.org/1999/xlink"
+ xmlns:xodm="http://www.corel.com/coreldraw/odm/2003">
+ <g id="Camada_x0020_1">
+  <metadata id="CorelCorpID_0Corel-Layer"/>
+  <path class="fil0" d="M11177.14 14465.54c-37.58,-66.85 -78.36,-79.14 -161.41,-83.82 -82.95,-5.63 -291.55,-7.97 -472.26,-7.97 -181.06,0 -389.75,2.34 -472.61,7.88 -82.87,4.76 -123.74,16.97 -161.67,83.91 -38.71,66.76 -58.62,181.75 -58.62,384.2l0 0.69c0,201.58 19.92,317.44 58.62,383.51 37.93,66.85 78.71,78.97 161.58,84.6 82.95,4.85 291.64,7.71 472.7,7.71 139.73,0 556.13,45.88 633.76,-92.22 39.05,-66.07 58.8,-181.93 58.8,-383.51l0 -0.69c0,-202.54 -19.74,-317.53 -58.88,-384.29l-0.01 0z"/>
+  <polygon class="fil1" points="10370.11,15109.77 10370.11,14590.22 10803.06,14849.99 "/>
+ </g>
+</svg>
