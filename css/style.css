@@ -134,7 +134,7 @@ ul.oculto li {
 }
 
 ul.oculto li a {
-  color: white;
+  color: var(--color-white);
 }
 
 /* ======= SEÇÃO 1 ======= */
@@ -239,17 +239,6 @@ footer {
   margin-right: 0;
 }
 
-.divImagem {
-  text-align: center;
-}
-
-.divImagem img {
-  margin-bottom: 30px;
-}
-
-.divImagem img:last-child {
-  margin-bottom: 0;
-}
 .divRodapeImagem {
   margin-bottom: 36px;
 }
@@ -276,12 +265,13 @@ footer {
   margin-top: 100px;
 }
 
-.divSvg {
-  margin-right: 15px;
+.divImagem img {
+  width: 36px;
+  margin-right: 20px;
   margin-bottom: 60px;
 }
 
-.divSvg:last-child {
+.divImagem img:last-child {
   margin-right: 0;
 }
 
@@ -372,7 +362,7 @@ form {
 .divFormInline input[type="submit"] {
   cursor: pointer;
   background: #103440;
-  color: var(--color-white)
+  color: var(--color-white);
   padding: 5px;
   font-size: 16px;
   border: none;
