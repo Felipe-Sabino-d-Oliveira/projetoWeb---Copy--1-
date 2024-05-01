@@ -263,7 +263,7 @@ article p {
   filter: invert();
 }
 
-.citacao__rodape {
+#citacao__rodape {
   color: var(--color-white);
   margin: 10px;
   font-size: 1.35em;
