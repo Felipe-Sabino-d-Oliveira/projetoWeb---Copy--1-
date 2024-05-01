@@ -82,7 +82,7 @@ li.emLinha a {
 }
 
 li.emLinha a:hover {
-  color: var(--color-red);
+  color: var(--color-red-strong);
   background: var(--color-white);
   padding: 10px;
   border-radius: 5px;
@@ -99,12 +99,12 @@ li.emLinha a span {
 
 li.emLinha:hover a span {
   transform: rotate(180deg);
-  color: var(--color-red);
+  color: var(--color-red-strong);
 }
 
 ul.oculto {
   visibility: hidden;
-  background: var(--color-red);
+  background-image: var(--color-red-special-center);
   border: solid 1px var(--color-black);
   border-radius: 5px;
   list-style: none;
@@ -139,7 +139,7 @@ ul.oculto li a {
   gap: 3rem;
   align-items: center;
   justify-content: center;
-  margin-top: 50px;
+  margin-top: 75px;
 }
 
 .main__card-link {
@@ -170,7 +170,7 @@ ul.oculto li a {
   text-align: center;
   padding-block: 10px;
   color: var(--color-white);
-  background-color: var(--color-red);
+  background-image: var(--color-red-special-center);
 }
 
 .figure__image {
@@ -195,16 +195,23 @@ ul.oculto li a {
 .secao2h3 {
   color: var(--color-white);
   margin: 0 auto;
+  padding-block: 50px;
   font-size: 3.6em;
+}
+
+.sobre__o__anime{
+  margin-bottom: 50px;
+  background: var(--color-red-special-center-reverse);
+  padding: 20px;
+  border-radius: 10px;
 }
 
 /* ======= SEÇÃO 3 ======== */
 
 article {
   width: 49%;
-  margin-right: 2%;
   border-radius: 10px;
-  padding: 0 20px;
+  padding: 20px;
 }
 
 article:last-child {
@@ -300,7 +307,7 @@ article p {
 
 .container__body{
   max-width: 1000px;
-  background: var(--color-red-special-reverse);
+  background: var(--color-red-special-center);
   padding: 30px;
   border-radius: 10px;
 }
@@ -347,10 +354,11 @@ form {
   color: var(--color-white)
 }
 
-.blocoFormPrincipal {
+.blocoFormPrincipal{
   display: block;
   width: 100%;
-  background: blue;
+  background: radial-gradient(circle, #C62C2C 0%, #990000 100%);
+  z-index: 5;
 }
 
 .divFormInline {
@@ -417,7 +425,7 @@ form {
 
 .figure__container__title {
   margin-top: 0;
-  background-color: var(--color-red);
+  background: var(--color-red-special-center);
   color: var(--color-white);
 }
 
@@ -428,6 +436,34 @@ form {
 .figure__image:hover {
   transition: all ease-in 0.4s;
   transform: scale(1.1);
+}
+
+/*========= NOT FOUND =========*/
+
+.main__not__found{
+	color: var(--color-white);
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	text-align: center;
+}
+
+.not__found{
+	margin: 75px;
+	padding: 20px;
+	background-image: url(../img/gif__One__Piece);
+	background-repeat: no-repeat;
+	font-size: 8.38em;
+	background-position: center;
+	color: transparent;
+	background-clip: text;
+	text-align: center;
+}
+
+.pedido__de__desculpas{
+	font-size: 1.6em;
+	font-style: italic;
 }
 
 /*======= MEDIA QUERIES =======*/

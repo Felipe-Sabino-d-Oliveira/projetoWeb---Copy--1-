@@ -1,7 +1,11 @@
 :root {
   --color-red: #d73533;
+  --color-red-strong: #990000;
   --color-red-special: linear-gradient(to bottom, #C62C2C, #990000);
   --color-red-special-reverse: linear-gradient(to top, #C62C2C, #990000);
+  --color-red-special-center: radial-gradient(circle, #990000 0%, #C62C2C 80%);
+  --color-red-special-center-reverse: radial-gradient(circle, #C62C2C 0%, #990000 80%);
+
   --color-white: #fafafa;
   --color-black: #000;
 }
