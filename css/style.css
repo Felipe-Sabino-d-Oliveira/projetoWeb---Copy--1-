@@ -39,6 +39,8 @@ body {
 main {
   background-image: url(../img/bg.png);
   padding-bottom: 30px;
+  background-size: cover;
+  background-repeat: no-repeat;
 }
 
 /* ===== CABEÇALHO ===== */
@@ -50,6 +52,10 @@ main {
 .logoSite:hover {
   transform: rotate(360deg);
   transition: transform 1.5s;
+}
+
+.opcao__inicio, .opcao__mais__info, .opcao__contato{
+  text-decoration: underline var(--color-white);
 }
 
 h1 {
@@ -306,15 +312,20 @@ article p {
 /* ========= INTERNA ========== */
 
 .container__body{
-  max-width: 1000px;
+  max-height: 350px;
+  width: 1000px;
   background: var(--color-red-special-center);
   padding: 30px;
   border-radius: 10px;
+  display: flex;
+  justify-content: space-between;
+  margin: 0 auto;
 }
 
 .interna {
   margin-top: 50px;
   margin-bottom: 50px;
+  align-items: center;
 }
 
 .interna:first-child {
@@ -323,29 +334,47 @@ article p {
 }
 
 .legenda {
-  width: 50%;
+  width: 400px;
   color: var(--color-white);
   text-align: justify;
   font-size: 1.6em;
   margin: 0;
+  padding: 0;
 }
 
 .figuraLegenda {
-  width: 48%;
   margin: 0;
 }
 
 .figuraLegenda img {
-  max-width: 100%;
+  min-width: 520px;
+  max-width: 520px;
+  margin: 0;
 }
 
 /*========== CONTATO ==========*/
 
-.mapa {
+.mapa__mundi {
   width: 100%;
-  height: 450px;
   border: none;
   margin: 0 0 50px 0;
+}
+
+.secao__contato{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 1152px;
+  margin: 0 auto;
+}
+
+
+
+.legenda__contato{
+  color: var(--color-white);
+  font-size: 2.25em;
+  margin-bottom: 50px;
 }
 
 form {
@@ -357,8 +386,7 @@ form {
 .blocoFormPrincipal{
   display: block;
   width: 100%;
-  background: radial-gradient(circle, #C62C2C 0%, #990000 100%);
-  z-index: 5;
+  background-image: var(--color-red-special-center);
 }
 
 .divFormInline {
@@ -371,12 +399,13 @@ form {
 .divFormInline input[type="number"],
 .divFormInline input[type="email"],
 .divFormInline input[type="password"] {
-  background: #73e1fa;
+  background: var(--color-white);
   padding: 5px;
   font-size: 1.6em;
   border: none;
   width: 98%;
   box-shadow: 2px 2px 2px #8e8e8e;
+  margin-left: 10px;
 }
 
 .divFormTextArea {
@@ -386,7 +415,7 @@ form {
 }
 
 .divFormTextArea textarea {
-  background: #73e1fa;
+  background: var(--color-white);
   padding: 5px;
   font-size: 1.6em;
   border: none;
@@ -394,6 +423,7 @@ form {
   height: 200px;
   font-family: "arial";
   box-shadow: 2px 2px 2px #8e8e8e;
+  margin-left: 10px;
 }
 
 .divFormInline input[type="submit"] {
@@ -405,13 +435,14 @@ form {
   border: none;
   border-radius: 5px;
   box-shadow: 2px 2px 2px #8e8e8e;
-  margin: 0 0 10px 0;
+  margin: 0 0 10px 10px;
   transition: background 0.3s;
 }
 
 .divFormInline input[type="submit"]:hover {
   transition: background 0.3s;
-  background: #e69383;
+  background: var(--color-white);
+  color: var(--color-red-strong);
 }
 
 .figure__container {
