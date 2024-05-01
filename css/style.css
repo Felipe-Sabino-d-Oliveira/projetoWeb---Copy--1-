@@ -447,15 +447,17 @@ form {
 	align-items: center;
 	justify-content: center;
 	text-align: center;
+  margin-bottom: 200px;
 }
 
 .not__found{
-	margin: 75px;
+	margin: 100px auto;
 	padding: 20px;
 	background-image: url(../img/gif__One__Piece);
 	background-repeat: no-repeat;
-	font-size: 8.38em;
 	background-position: center;
+  background-size: cover;
+  font-size: 18em;
 	color: transparent;
 	background-clip: text;
 	text-align: center;
