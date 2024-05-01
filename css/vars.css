@@ -1,8 +1,7 @@
 :root {
   --color-red: #d73533;
+  --color-red-special: linear-gradient(to bottom, #C62C2C, #990000);
+  --color-red-special-reverse: linear-gradient(to top, #C62C2C, #990000);
   --color-white: #fafafa;
+  --color-black: #000;
 }
-
-/* GRADIENTE P USAR DPS:
-  background: linear-gradient(to right, #C62C2C, #990000);
-*/

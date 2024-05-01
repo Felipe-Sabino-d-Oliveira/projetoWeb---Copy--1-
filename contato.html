@@ -1,37 +1,47 @@
 <!DOCTYPE html>
 <html lang="pt-br">
-<head>
-	<meta charset="utf-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<title>FICR - Contato</title>
-	<link rel="stylesheet" href="css/style.css">
-</head>
+	<head>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1" />
+		<title>Wiki Piece</title>
+		<link rel="shortcut icon" href="./img/Chapéu-de-palha.png" />
+	
+		<link rel="stylesheet" type="text/css" href="./css/style.css" />
+		<link rel="stylesheet" href="./css/reset.css" />
+		<link rel="stylesheet" href="./css/vars.css" />
+	</head>
 <body>
-	<header>
-		<div class="container">
-			<h1>
-				<a href="index.html">
-					<img class="logo-site" src="./img/Chapéu-de-palha.png" alt="Faculdade Imaculada Conceição do Recife - FICR">
-				</a>
-			</h1>
-			<nav>
-				<ul class="principal">
-					<li class="emLinha"><a href="index.html">O Anime</a></li>
-					<li class="emLinha">
-						<a href="#">Arcos <span>▼</span></a>
-						<ul class="oculto">
-							<li><a href="ads.html">Análise e Desenvolvimento de Sistemas</a></li>
-							<li><a href="si.html">Sistemas para Internet</a></li>
-							<li><a href="direito.html">Direito</a></li>
-							<li><a href="enfermagem.html">Enfermagem</a></li>
-							<li><a href="psicologia.html">Psicologia</a></li>
-						</ul>
-					</li>
-					<li class="emLinha"><a href="sobre.html">Resenhas de Episódios</a></li>
-					<li class="emLinha"><a href="contato.html">Contato</a></li>
-				</ul>
-			</nav>
-		</div>
+    <header class="header">
+		<h1 class="header__h1">
+		  <a class="header_h1_link" href="index.html">
+			<img
+			  class="logoSite"
+			  src="./img/Chapéu-de-palha.png"
+			  alt="Faculdade Imaculada Conceição do Recife - FICR"
+			/>
+		  </a>
+		</h1>
+		<nav class="header__nav">
+		  <ul class="header_nav_list">
+			<li class="emLinha"><a href="index.html">Início</a></li>
+			<li class="emLinha">
+			  <a href="#">Resumo dos Arcos<span>▼</span></a>
+			  <ul class="oculto">
+				<li>
+				  <a href="ads.html">Análise e Desenvolvimento de Sistemas</a>
+				</li>
+				<li><a href="si.html" target="_blank">Sistemas para Internet</a></li>
+				<li><a href="direito.html" target="_blank">Direito</a></li>
+				<li><a href="enfermagem.html" target="_blank">Enfermagem</a></li>
+				<li><a href="psicologia.html" target="_blank">Psicologia</a></li>
+			  </ul>
+			</li>
+			<li class="emLinha">
+			  <a href="mais-informacoes.html">Mais Informações</a>
+			</li>
+			<li class="emLinha"><a href="contato.html">Local do Tesouro</a></li>
+		  </ul>
+		</nav>
 	</header>
 	<main>
 
@@ -84,48 +94,27 @@
 				</form>
 		</section>
 	</main>
-	<footer>
+    <footer class="footer">
 		<div class="container">
-
-			<div class="divRodape divImagem">
-				<img src="./img/ubec-logo.png">
-				<img src="img/ouvidoria.png">
-				<img src="img/QRcode.png">
+		  <div class="divRodape">
+			<div class="citacao__rodape">
+			  <p class="citacao__rodape">
+				"Um homem só precisa de um motivo para viver. Não importa se é estúpido ou sem sentido. Se você encontrar esse motivo, você poderá superar qualquer coisa." - Monkey D. Luffy
+			  </p>
 			</div>
-
-			<div class="divRodape">
-			<img class="divRodapeImagem" src="./img/logo.svg" alt="Faculdade Imaculada Católica Conceição do Recife">
-			<p class="pLink">Acesso rápido</p>
-			<p>Graduação</p>
-			<p>Bolsas e Financiamentos</p>
-			<p> CPA - Comissão Própria <br> de avaliação
-			</p>
-			<p class="pLink pMargem">Ajuda</p>
-			<p class="pLink">Trabalhe Conosco</p>
-		</div>
-
-			<div class="divRodape">
-				<p>Pós-Graduação</p>
-				<p>A Instituição</p>
-				<p>Área do Estudante</p>
-				<p>Documentos Institucionais</p>
-				<p class="pLink">Católica de A a Z</p>
-
+			<div class="icones__rodape">
+			  <a class="divImagem" href="https://www.facebook.com/felipe.sabino.501151?mibextid=ZbWKwL">
+				<img src="img/facebook.png" alt="Facebook" />
+			  </a>
+			  <a class="divImagem" href="https://www.linkedin.com/in/felipe-sabino-75461a2a7?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app">
+				<img src="img/linkedin.png" alt="LinkedIn" />
+			  </a>
+			  <a class="divImagem" href=""><img src="img/instagram.png" alt="Instagram" /></a>
+			  <a class="divImagem" href="https://discord.com/channels/@me">
+				<img src="img/discord.png" alt="Discord" />
+			  </a>
 			</div>
-             
-			<div class="divRodape">
-				<img class="divSvg" src="img/facebook.svg">
-				<img class="divSvg" src="img/linkedin.svg">
-				<img class="divSvg" src="img/instagram.svg">
-				<img class="divSvg" src="img/youtube.svg">
-
-				<p> (81) 2127-0500 <br> faleconosco@ficr.edu.br
-				</p>
-				<p> FICR - Faculdade Católica <br> Imaculada Conceição <br> do Recife
-				</p>
-				<p> Avenida Caxangá, 3841 <br> Iputinga - Recife / PE <br> CEP: 50670-92
-				</p>
-			</div>
+		  </div>
 		</div>
 	</footer>
 </body>

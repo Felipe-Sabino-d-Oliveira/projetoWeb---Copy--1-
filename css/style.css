@@ -14,20 +14,14 @@ body {
   background-size: cover;
 }
 
-header {
-  background: var(--color-red);
-  /* background: linear-gradient(to right, #C62C2C, #990000); */
-
-  padding: 10px 0;
-  font-size: 1.8em; 
-}
-
 .header {
   display: flex;
   justify-content: space-around;
-  background: var(--color-red);
+  background: var(--color-red-special);
   font-size: 1.8em;
   padding-block: 10px;
+  height: 100px;
+  align-items: center;
 }
 
 .header__nav,.header_h1_link {
@@ -111,7 +105,7 @@ li.emLinha:hover a span {
 ul.oculto {
   visibility: hidden;
   background: var(--color-red);
-  border: solid 1px #000;
+  border: solid 1px var(--color-black);
   border-radius: 5px;
   list-style: none;
   position: absolute;
@@ -225,16 +219,17 @@ article p {
 
 /* ======= RODAPÉ ======== */
 
-footer {
-  background: var(--color-red);
+.footer {
+  background: var(--color-red-special-reverse);
   padding: 15px 0;
+  height: auto;
 }
 
 .divRodape{
-  border: solid 1px;
   display: flex;
+  flex-direction: column;
+  align-items: center;
   justify-content: center;
-  margin: 0;
 }
 /* 
 .divRodape {
@@ -250,10 +245,24 @@ footer {
   margin-bottom: 36px;
 }
  */
-.divRodape p {
+
+.div__citacao, .icones__rodape{
+  display: flex;
+  justify-content:center;
+}
+
+.icones__rodape{
+  gap: 20px;
+  filter: invert();
+}
+
+.citacao__rodape {
   color: var(--color-white);
   margin: 10px;
-  font-size: 1.6em;
+  font-size: 1.35em;
+  font-family: 'Sacramento', cursive;
+  font-style:italic;
+  text-align: center;
 }
 /* 
 .divRodape p:last-child {
@@ -273,10 +282,14 @@ footer {
   margin-top: 100px;
 } */
 
+.divImagem{
+  width: 40px;
+  margin: 15px 15px 0px 15px;
+}
+
 .divImagem img {
   width: 40px;
-  margin: 15px 15px 40px 15px;
-
+  margin: 0;
 }
 
 /* .divImagem img:last-child {
@@ -284,6 +297,13 @@ footer {
 }
  */
 /* ========= INTERNA ========== */
+
+.container__body{
+  max-width: 1000px;
+  background: var(--color-red-special-reverse);
+  padding: 30px;
+  border-radius: 10px;
+}
 
 .interna {
   margin-top: 50px;
@@ -297,8 +317,9 @@ footer {
 
 .legenda {
   width: 50%;
+  color: var(--color-white);
   text-align: justify;
-  font-size: 2em;
+  font-size: 1.6em;
   margin: 0;
 }
 
